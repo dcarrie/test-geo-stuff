@@ -1,0 +1,20 @@
+.geolocalizedContainer {
+    position: relative;
+}
+
+.geolocalizedContent {
+    opacity: 0.2;
+}
+
+.geolocalizedOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:#f00;
+    font-weight:bold;
+    background-color: #ffffff;
+}
+
+.geolocalizedOverlay {
+    z-index: 10;
+}

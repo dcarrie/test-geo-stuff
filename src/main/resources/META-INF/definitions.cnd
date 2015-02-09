@@ -1,0 +1,10 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jmix:geolocalizable] mixin
+ extends = jnt:content
+ itemtype = options
+ - geoIPCountry (string, choicelist[flag,country]) mandatory multiple
+
+[jnt:geolocationCountrySwitcher] > jnt:content, jmix:siteComponent, jmix:studioOnly
+
